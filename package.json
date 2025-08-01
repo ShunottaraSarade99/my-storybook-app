@@ -43,6 +43,7 @@
   "devDependencies": {
     "@storybook/addon-docs": "^9.1.0",
     "@storybook/addon-onboarding": "^9.1.0",
+    "@storybook/cli": "^9.1.0",
     "@storybook/preset-create-react-app": "^9.1.0",
     "@storybook/react-webpack5": "^9.1.0",
     "chromatic": "^13.1.3",
