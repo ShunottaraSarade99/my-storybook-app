@@ -28,6 +28,11 @@ jobs:
             
       - name: Debug Storybook CLI
         run: npx storybook --version
+      
+      
+      - name: Build Storybook manually
+        run: ./node_modules/.bin/storybook build --output-dir=storybook-static
+
 
       - name: publish to chromatic
         uses: chromaui/action@latest
